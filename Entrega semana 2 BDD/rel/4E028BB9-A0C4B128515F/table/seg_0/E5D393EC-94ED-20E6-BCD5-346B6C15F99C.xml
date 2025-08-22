@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5D393EC-94ED-20E6-BCD5-346B6C15F99C" name="Equipaje">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>5880E1EF-B2F6-9BBC-67DC-8BB3B40B935E</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_maleta" id="F6E96D9F-ADD1-D83E-25A1-C68347B53A25">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>D6AA46F5-AA92-684C-630F-E957400BC9FA</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color" id="C462F9F8-E249-CE7A-53AE-7716F4D4D848">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>306CF112-2AE7-9358-9EF9-9006E237CED3</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso" id="FE6FE113-C329-CD91-DB9F-65BEFF08D087">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>F4B89B7C-EB7C-4A22-BD8B-11A6995E4E63</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="21B4CE38-5DCB-D5EC-2E65-18CC21080E5D">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>BE89AE51-6B56-3AAC-8062-572FC9D0DED6</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pasajero_ID_Pasajero" id="0C878181-96DC-DEDE-C59A-AA2CA88FD440">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:18:37 UTC</createdTime>
+<generatorID>EF9D92BE-0467-989D-9722-B65E7A0555B3</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="520DC31F-AADD-DCAB-EA46-0D91F958A352" referredColumn="78CC3B1D-4F8C-C0B5-B53C-364672D1BB42"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD161F7E-DF75-65A2-B5F3-36C5CF65BCAF" name="Equipaje_PK">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>0ADBED53-181B-341C-A93F-EB705D351140</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6E96D9F-ADD1-D83E-25A1-C68347B53A25"/>
+<colUsage columnID="0C878181-96DC-DEDE-C59A-AA2CA88FD440"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B439AFD-4636-3072-7BA7-4772EB76E70C" name="Equipaje_Pasajero_FK">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:18:37 UTC</createdTime>
+<generatorID>2ABB2848-1A72-CDAF-4B6B-D3060A783CBD</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C878181-96DC-DEDE-C59A-AA2CA88FD440"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

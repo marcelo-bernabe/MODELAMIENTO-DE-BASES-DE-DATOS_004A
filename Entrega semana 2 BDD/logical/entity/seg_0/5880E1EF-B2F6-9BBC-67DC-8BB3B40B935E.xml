@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5880E1EF-B2F6-9BBC-67DC-8BB3B40B935E" name="Equipaje">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:31:07 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_maleta" id="D6AA46F5-AA92-684C-630F-E957400BC9FA">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:31:13 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="306CF112-2AE7-9358-9EF9-9006E237CED3">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:31:34 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="F4B89B7C-EB7C-4A22-BD8B-11A6995E4E63">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:31:50 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="BE89AE51-6B56-3AAC-8062-572FC9D0DED6">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:32:13 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Pasajero" id="EF9D92BE-0467-989D-9722-B65E7A0555B3">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:18:21 UTC</createdTime>
+<generatorID>2ABB2848-1A72-CDAF-4B6B-D3060A783CBD</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<referedAttribute>810EFF0F-299C-535B-8C1A-C2DA3228FAFA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0ADBED53-181B-341C-A93F-EB705D351140" name="Equipaje PK">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:31:33 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D6AA46F5-AA92-684C-630F-E957400BC9FA</attributeRef>
+<attributeRef>EF9D92BE-0467-989D-9722-B65E7A0555B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

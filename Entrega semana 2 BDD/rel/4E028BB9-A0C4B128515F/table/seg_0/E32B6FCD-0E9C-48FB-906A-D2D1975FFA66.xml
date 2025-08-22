@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E32B6FCD-0E9C-48FB-906A-D2D1975FFA66" name="Pasajero">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>6EE4E426-5B5F-EB29-CDC3-DC32F6ABBD3E</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Pasajero" id="78CC3B1D-4F8C-C0B5-B53C-364672D1BB42">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>810EFF0F-299C-535B-8C1A-C2DA3228FAFA</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_completo" id="3003E63E-7885-03EB-9071-8CF390B4F62A">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>E7202A7F-4709-1A4B-2C6F-05269BD4D031</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="2A58EE48-C254-BDCE-C560-73BBDFD3A336">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>B53F0BC1-3185-D721-38A4-3CA476497DD3</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="2945AF0E-8C93-DD0A-6B5A-F22460C246D7">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>F3538A68-5D98-0B13-51F1-FCA58992DAAC</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_contacto" id="5D108C4A-04FB-E202-5CAF-5F670427F1C1">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>9F0967C1-3927-C870-62C6-27C320EB3EBC</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="AE155059-56E1-A6B4-B1F2-A93E60150351">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>FF6A5944-0CC2-2DF0-1B23-1D8B151F5143</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C44C05F4-9500-A010-6723-18F04276852A" name="Pasajero_PK">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>48368F74-65BA-EA42-A7D2-F8C89304E87E</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78CC3B1D-4F8C-C0B5-B53C-364672D1BB42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_2" directorySegmentName="seg_0" id="791C0447-A289-499F-B9CB-C2570AA4B5C7">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:30:15 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>21FB31D3-F668-7A9E-A4D9-52EF1FBEDB81</sourceEntity>
+<targetEntity>17854F9F-EB03-04AA-61C3-646FA5353B85</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

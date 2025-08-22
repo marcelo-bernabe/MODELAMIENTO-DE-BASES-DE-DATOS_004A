@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17854F9F-EB03-04AA-61C3-646FA5353B85" name="Administrativo">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:29:11 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>21FB31D3-F668-7A9E-A4D9-52EF1FBEDB81</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="horas_extras" id="2ECEED5F-2B88-593C-7B33-B9A5C4C0B95E">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:29:26 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="afp" id="0C17ADE1-449A-1261-76A9-9157B7322C15">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:30:01 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

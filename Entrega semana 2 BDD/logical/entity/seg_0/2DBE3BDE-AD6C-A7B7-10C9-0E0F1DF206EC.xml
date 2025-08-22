@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2DBE3BDE-AD6C-A7B7-10C9-0E0F1DF206EC" name="Vuelo">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:16:52 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_vuelo" id="88267B41-175A-E8AC-8ED3-4C4F9F31988A">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:16:58 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_despegue" id="31E69C42-ECA1-9F11-1E4D-B34860E7349A">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:17:11 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_llegada" id="B4475DA9-13D6-F626-A470-A4A366BE3959">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:17:51 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_salida" id="01178E7E-4212-0655-BA05-D80CBC89A9DA">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:18:05 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad_origen" id="9B2197FF-AD1D-B413-265D-13FA1AF1EF35">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:18:53 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad_destino" id="8A4D484F-CBE4-008E-CCF7-8E9930769C01">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:19:14 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="62C68E37-68D0-353E-55C9-160C9FCB31CA">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:17:24 UTC</createdTime>
+<generatorID>85A4F8A4-7B35-6E57-68C6-CA3F7620307E</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<referedAttribute>94D12772-DD7C-2FC9-A528-19F8E853AFB6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="83A4328B-A72D-5B78-958C-DCD58119D259" name="Vuelo PK">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:17:08 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88267B41-175A-E8AC-8ED3-4C4F9F31988A</attributeRef>
+<attributeRef>62C68E37-68D0-353E-55C9-160C9FCB31CA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

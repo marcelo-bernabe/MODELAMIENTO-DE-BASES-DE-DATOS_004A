@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Entrega semana 2 BDD" id="119F380A-11EE-750F-4460-DD39A24D3E65" version="3.5">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:03:48 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>119F380A-11EE-750F-4460-DD39A24D3E65</designId>
+</OSDM_Design>

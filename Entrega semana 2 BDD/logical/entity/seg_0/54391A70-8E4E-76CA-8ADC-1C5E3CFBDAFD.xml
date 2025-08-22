@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="54391A70-8E4E-76CA-8ADC-1C5E3CFBDAFD" name="Reserva">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:13:58 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_reserva" id="401875A0-5940-E922-3535-8BC7E48EA582">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:14:05 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_reserva" id="E7694F06-F2B5-6492-3B7C-784185E46802">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:15:51 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_viaje" id="3513E08C-7247-2F00-2D45-C2FE0A5555EE">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:16:19 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="F689BB24-8017-3407-4701-2BA9E102D95F">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:16:35 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Pasajero1" id="6D5300DC-DBF2-AE01-C835-927E1B079162">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:11:28 UTC</createdTime>
+<generatorID>D9787456-6C79-1922-03D9-DA7FAD2E23F0</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<referedAttribute>810EFF0F-299C-535B-8C1A-C2DA3228FAFA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_vuelo" id="9FA9FB5F-028D-8BA9-EA57-75507D74ABA7">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:16:17 UTC</createdTime>
+<generatorID>9A7001C2-1E1B-9B4D-FCEE-27FC7D17F494</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<referedAttribute>88267B41-175A-E8AC-8ED3-4C4F9F31988A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="A8258873-DB51-B7DF-8D85-EF08ABB4E358">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:17:24 UTC</createdTime>
+<generatorID>9A7001C2-1E1B-9B4D-FCEE-27FC7D17F494</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<referedAttribute>62C68E37-68D0-353E-55C9-160C9FCB31CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUT_empleado" id="4DA1DEA0-86BF-3937-1A4F-3333BF9FE308">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:17:49 UTC</createdTime>
+<generatorID>82C90925-3153-3247-410A-7D585AA3A21C</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<referedAttribute>8353D922-CE5C-0B94-4557-390600025168</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="271EB6E3-75CE-125E-C7C7-C354B81E5592" name="Reserva PK">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 20:15:47 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>401875A0-5940-E922-3535-8BC7E48EA582</attributeRef>
+<attributeRef>6D5300DC-DBF2-AE01-C835-927E1B079162</attributeRef>
+<attributeRef>9FA9FB5F-028D-8BA9-EA57-75507D74ABA7</attributeRef>
+<attributeRef>A8258873-DB51-B7DF-8D85-EF08ABB4E358</attributeRef>
+<attributeRef>4DA1DEA0-86BF-3937-1A4F-3333BF9FE308</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

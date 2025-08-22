@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="D9787456-6C79-1922-03D9-DA7FAD2E23F0">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:11:28 UTC</createdTime>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<engineerTo>
+<item key="4E028BB9-3AC0-F139-69A3-A0C4B128515F" value="true"/>
+</engineerTo>
+<sourcePk>48368F74-65BA-EA42-A7D2-F8C89304E87E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6EE4E426-5B5F-EB29-CDC3-DC32F6ABBD3E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>54391A70-8E4E-76CA-8ADC-1C5E3CFBDAFD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F7395D9-8BCB-2013-AA6E-B3F3BBBD7ECF" name="Vuelo">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>2DBE3BDE-AD6C-A7B7-10C9-0E0F1DF206EC</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_vuelo" id="8C688B57-1520-520B-F93B-5ECD8D6F84BC">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>88267B41-175A-E8AC-8ED3-4C4F9F31988A</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_despegue" id="C1AD44BF-4C8E-93EE-5C17-4445A11B94A4">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>31E69C42-ECA1-9F11-1E4D-B34860E7349A</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_llegada" id="A2E30209-3E89-FD2E-9AD2-A9E8A00ADA46">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>B4475DA9-13D6-F626-A470-A4A366BE3959</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_salida" id="1DE15A8B-1E1E-293B-538B-65A2BC74E2E4">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>01178E7E-4212-0655-BA05-D80CBC89A9DA</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad_origen" id="E3936C97-AA97-5E21-9085-8DDE219284DF">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>9B2197FF-AD1D-B413-265D-13FA1AF1EF35</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad_destino" id="B8AEFA36-4DD2-D7B9-A06A-023DB1181D52">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>8A4D484F-CBE4-008E-CCF7-8E9930769C01</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Avión_matricula" id="043C0FD9-88F7-D3CC-DC20-FDD565DB0769">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:18:37 UTC</createdTime>
+<generatorID>62C68E37-68D0-353E-55C9-160C9FCB31CA</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="902E4F34-E6BB-D164-CB09-52A2800706AD" referredColumn="FBE48C54-1322-A9C9-00F9-609CB05A7325"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECB837A9-075E-ACB4-8F24-0A4D3DB3A140" name="Vuelo_PK">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:14:41 UTC</createdTime>
+<generatorID>83A4328B-A72D-5B78-958C-DCD58119D259</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C688B57-1520-520B-F93B-5ECD8D6F84BC"/>
+<colUsage columnID="043C0FD9-88F7-D3CC-DC20-FDD565DB0769"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7327AB9F-E756-F1E0-2DAF-C30FF3399249" name="Vuelo_Avión_FK">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:18:37 UTC</createdTime>
+<generatorID>85A4F8A4-7B35-6E57-68C6-CA3F7620307E</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="043C0FD9-88F7-D3CC-DC20-FDD565DB0769"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

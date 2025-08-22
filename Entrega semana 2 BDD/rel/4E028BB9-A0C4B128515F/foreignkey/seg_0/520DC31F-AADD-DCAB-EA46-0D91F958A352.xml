@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="520DC31F-AADD-DCAB-EA46-0D91F958A352" containerWithKeyObject="E5D393EC-94ED-20E6-BCD5-346B6C15F99C" localFKIndex="5B439AFD-4636-3072-7BA7-4772EB76E70C" name="Equipaje_Pasajero_FK">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:18:37 UTC</createdTime>
+<generatorID>2ABB2848-1A72-CDAF-4B6B-D3060A783CBD</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<referredTableLongName>Pasajero</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E32B6FCD-0E9C-48FB-906A-D2D1975FFA66</referredTableID>
+<keyObject>C44C05F4-9500-A010-6723-18F04276852A</keyObject>
+<referredKeyID>C44C05F4-9500-A010-6723-18F04276852A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Pasajero</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

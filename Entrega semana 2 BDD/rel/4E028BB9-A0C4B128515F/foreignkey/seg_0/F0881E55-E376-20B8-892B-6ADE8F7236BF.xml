@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F0881E55-E376-20B8-892B-6ADE8F7236BF" containerWithKeyObject="E9010157-2A82-57CA-4B78-E61255772F60" localFKIndex="5260ABD8-4AEC-4D43-D4F6-BDB2D90BDE0F" name="Reserva_Administrativo_FK">
+<createdBy>Marcelo Bernabé</createdBy>
+<createdTime>2025-08-22 21:18:37 UTC</createdTime>
+<generatorID>82C90925-3153-3247-410A-7D585AA3A21C</generatorID>
+<ownerDesignName>Entrega semana 2 BDD</ownerDesignName>
+<referredTableLongName>Administrativo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8525FE0B-6A3D-F9BB-EEE8-BE2AF66ADC08</referredTableID>
+<keyObject>260A380F-44FC-F071-E599-CEA0E86EEF0C</keyObject>
+<referredKeyID>260A380F-44FC-F071-E599-CEA0E86EEF0C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RUT_empleado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
